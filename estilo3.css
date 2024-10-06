@@ -1,0 +1,83 @@
+body {
+  background-image: url('fondooo.jpg');
+  background-size: cover;
+  font-family: Century Gothic;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 10px -1px 24px 0px rgba(0, 0, 0, 0.75);
+  background-color: #F5F5DC; /* Warm Beige */
+}
+
+.caja {
+  width: 430px;
+  background: rgba(182, 182, 182, 0.6);
+  margin: 100px auto;
+  border-radius: 5px;
+  padding: 20px;
+  color: #754975; /* Rich Coffee */
+  text-align: center;
+}
+
+.caja h1 {
+  font-size: 28px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  border-top: 2px solid #F2C464; /* Cream */
+  margin-bottom: 5px;
+  color: #754975; /* Rich Coffee */
+  text-shadow: 0 0 3px #d8ff00, 0 0 5px #00ecff;
+}
+
+.caja h2 {
+  font-size: 35px;
+  letter-spacing: 4px;
+  margin-bottom: 5px;
+  color: #754975; /* Rich Coffee */
+}
+
+.caja p {
+  text-align: justify;
+  font-weight: 300;
+  color: #F5F5DC; /* Warm Beige */
+}
+
+.caja ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.caja ul li a {
+  color: #F2C464; /* Cream */
+  font-size: 30px;
+  padding: 8px 10px;
+  display: block;
+  transition: all 0.7s ease-in-out;
+}
+
+.caja ul li a:hover {
+  color: #754975; /* Rich Coffee */
+  transform: scale(1.4);
+}
+.btn_regresar {
+  background-color: #754975; /* Rich Coffee */
+  color: #F5F5DC; /* Warm Beige */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn_regresar:hover {
+  background-color: #F2C464; /* Cream */
+}
